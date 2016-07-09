@@ -1,0 +1,15 @@
+# server
+server:
+  port: 8080
+
+---
+# log
+logging.level:
+  root: INFO
+  org.springframework.boot.autoconfigure: INFO
+  org.apache.tomcat.jdbc: INFO
+  com.alibaba: INFO
+
+---
+# other
+
